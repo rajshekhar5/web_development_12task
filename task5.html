@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Registration Form</h1>
+
+  <form >
+    <div class="form-group">
+      <label for="first-name">First Name</label>
+      <input type="text" class="input-field" id="first-name" name="first-name">
+    </div>
+
+    <div class="form-group">
+      <label for="last-name">Last Name</label>
+      <input type="text" class="input-field" id="last-name" name="last-name">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="input-field" id="email" name="email">
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="input-field" id="password" name="password">
+    </div>
+
+    <div class="form-group">
+      <label for="gender">Gender</label>
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input type="number" class="input-field" id="age" name="age">
+    </div>
+
+    <div class="form-group">
+      <label for="phone-number">Phone Number</label>
+      <input type="tel" class="input-field" id="phone-number" name="phone-number">
+    </div>
+
+    <div class="form-group">
+      <label for="languages">Languages Known</label>
+      <input type="text" class="input-field" id="languages" name="languages">
+    </div>
+
+    <input type="submit" value="Register" class="btn">
+  </form>
+</div>
+</body>
+</html>

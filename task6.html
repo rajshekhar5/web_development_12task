@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vertical Navigation Bar</title>
+  <style>
+    nav {
+        width: 200px;
+        background-color: #f1f1f1;
+        position: fixed;
+        top: 30%;
+        left: 20%;
+        z-index: 1;
+        }
+
+        .bar {
+            display: block;
+            padding: 8px 16px;
+        }
+
+        
+        .bar:hover {
+        background-color: orange;
+        color: white;
+        }
+
+        .top-nav {
+            background-color: #f1f1f1;
+            height: 50px;
+            display: flex;
+            margin: 20% 20% 10% 50%;
+
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a {
+        text-decoration: none;
+        color: #000;
+        padding: 20px 30px;
+        }
+
+        a:hover {
+        background-color: #555;
+        color: white;
+        }
+
+
+  </style>
+</head>
+<body>
+    <nav>
+        <div class="">
+            <div class="bar">Home</div>
+            <div class="bar">Java</div>
+            <div class="bar">CSS</div>
+            <div class="bar">HTML</div>
+            <div class="bar">Bootstrap</div>
+        </div>
+    </nav>
+    
+    <div class="top-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+      </div>
+      
+</body>
+</html>
